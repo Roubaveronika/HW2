@@ -8,6 +8,7 @@ html,
 body {
     font-family: 'Inter', sans-serif;
     font-style: normal;
+    color: 'rgba(48, 48, 48,)';
     /* Стили для шрифта */
 }
 
@@ -43,6 +44,7 @@ header span {
 }
 
 .main-section {
+    padding: 60px 0px;
     width: 1440px;
     height: 1024px;
     background-color: #fafaff;/* Стили для первой секции */
@@ -63,13 +65,14 @@ header span {
 }
 
 .main-image {
-    width: 715px;
+    max-width: 715px;
     height: 508px;/* Стили для изображения в первой секции */
 }
 
 
 .about-section {
     background-color: #fff;
+    padding: 100px 0px;
     margin-bottom: 110px;/* Стили для второй секции */
 }
 
@@ -108,7 +111,7 @@ h2.section-title {
     font-weight: 400;
     font-size: 16px;
     color: #303030;
-    padding-top: 15px;
+    padding: 0 px 20px;
     list-style-image: url("./Vector-3.svg");
     margin-left: 23px;
    /* Стили для маркированного списка во второй секции */
@@ -120,7 +123,7 @@ h2.section-title {
     font-weight: 400;
     font-size: 16px;
     color: #303030;  
-    padding-left: 13px;
+    padding: 0px 0px 0px 13px;
     margin-left: 13px;
     /* Стили для нумерованного списка во второй секции */
 }
@@ -193,6 +196,7 @@ h2.section-title {
 .line {
     border: 1px solid rgba(48, 48, 48, 0.3);
     height: 0px;
+    margin: 60px 0px;
     /* Стили для линии */
 }
 
@@ -219,12 +223,12 @@ th, td {
    border: 1px solid rgba(48, 48, 48, 0.3);
    width: 300px;
    text-align: left;
-   padding: 10px; /* Стили для ячеек таблицы */
+   padding: 12px 15px; /* Стили для ячеек таблицы */
 }
 
 footer {
     background: rgba(163, 167, 255, 0.3);
-    padding: 26px 1px 27px;
+    padding: 26px 0px;
     text-align: left;
     margin-top: 40px;
     /* Стили для футера */
